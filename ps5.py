@@ -202,7 +202,6 @@ def r_squared(y, estimated):
     return round(1 - sum(diff) / sum(means), 5)
 
 
-# TODO
 def evaluate_models_on_training(x, y, models):
     """
     For each regression model, compute the R-squared value for this model with the
